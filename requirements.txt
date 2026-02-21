@@ -1,5 +1,5 @@
 faiss-cpu
-langchain==0.3.27
+langchain>=0.3.27,<1.0
 langchain-core
 langchain-openai
 langchain-anthropic
@@ -7,13 +7,13 @@ langchain-google-genai
 langchain-ollama
 langchain-community
 langchain-together
-numpy==1.24.0
-pydantic==2.9.2
+numpy>=1.24.0,<2.0
+pydantic>=2.9.2,<3.0
 PyQt5>=5.15.0
 PyQtChart>=5.15.0
-pyttsx3==2.90
-requests==2.31.0
-spacy==3.7.5
+pyttsx3>=2.90
+requests>=2.31.0,<3.0
+spacy>=3.7.5,<3.9
 textstat
 tiktoken
 noisereduce
