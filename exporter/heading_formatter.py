@@ -118,7 +118,7 @@ class NumberingUtility:
             from num2words import num2words
 
             from main import translation_manager
-            if translation_manager.current_language in ('jp', 'zh'):
+            if translation_manager.current_language in ('ja', 'zh'):
                 raise NotImplementedError("Use {kanji} if you want kanji") # Let Asians use English words
             word = num2words(n, lang = translation_manager.current_language).capitalize()
             return word
